@@ -85,7 +85,7 @@ body {
 	cursor: pointer;
 }
 
-.nav-bar:hover {color: darkorange;}
+.nav-bar:hover {color: #81a7e6;}
 
 #logo { 
     position: relative;
@@ -118,7 +118,7 @@ body {
 	position: relative;
     width: 110%;
     height: 5vh;
-    background-color: orange;
+    background-color: #81a7e6;
     font-size: 1.5vw;
     text-align: center;
     line-height: 3.5vh;
