@@ -7,8 +7,10 @@ body {
 	height: 100%;
 	overflow: hidden;
 	background-size: 100% auto;
-	background-image: url(../images/background.jpg);
+	background-image: url(../images/galaxy.jpg);
 	margin: 0;
+	background-repeat: repeat;
+	background-size: 100% auto;
 }
 
 #hamburgermenu {
