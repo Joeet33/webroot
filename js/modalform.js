@@ -28,6 +28,21 @@ $("#mask").on("click", function() {
   
   });
 
+  $("#mobilelogin").click(function() {
 
+    $("#loginform-container").toggle();
+    
+    $("#mask").toggle();
+    
+    });
+    
+    
+    $("#mobileregister").on("click", function() {
+    
+    $("#regform-container").toggle();
+    
+    $("#mask").toggle();
+    
+    });
   
 });

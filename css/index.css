@@ -133,21 +133,23 @@ body {
 }
 
 #contact_email {
-    position: relative;
+	position: absolute;
     color: #81a7e6;
-    right: 3%;
-    top: 14%;
-    font-size: 179%;
+    top: 9%;
+    font-size: 257%;
+    width: 100%;
     font-family: "Agency FB";
+    left: 0.2%;
 }
 
 #contact_number{
-	position: relative;
+	position: absolute;
     color: #81a7e6;
-    right: 14.1%;
     top: 52%;
-    font-size: 166%;
+    font-size: 254%;
     font-family: "Agency FB";
+    width: 100%;
+    left: 0.2%;
 }
 
 .nav-bar2:hover {opacity: 0.9;}
@@ -524,7 +526,210 @@ body {
 	
 	.maintextnormal {
 		font-size: 2vw;
-	}	
+	}
+	
+	body {
+		overflow: none;
+		}
+			
+		#login_register {
+			justify-content: space-around;
+		}
+		
+		.loginregister {
+			font-size: 3vw !important;
+			width: 48% !important;
+			height: 2vh !important;
+			line-height: 2vh !important;
+		}
+			
+		#nav-bar {
+			display: none;
+		}
+			
+		#mobilenav {
+			position: relative;
+			width: 40%;
+			clear: left;
+			float: left;
+			height: 21vh;
+			display: none;
+			left: 59%;
+			z-index: 9;
+			bottom: 32%;
+		}
+			
+		#hamburgermenu {
+			position: relative;
+			width: 10%;
+			left: 90%;
+			bottom: 77%;
+			clear: left;
+			float: left;
+			font-size: 5vw;
+			display: block;
+			text-align: center;
+			cursor: pointer;
+		}
+			
+		#mobiledropdown {
+			position: relative;
+			width: 100%;
+			float: left;
+			clear: left;
+			height: 90%;
+		}
+		
+		#mobilefindus {
+			font-family: "Agency FB";
+		}
+		
+		#mobilevideogallery {
+			font-family: "Agency FB";
+		}
+		
+		#mobilecontactus {
+			font-family: "Agency FB";
+		}
+		
+		#mobilepicturegallery {
+			font-family: "Agency FB";
+		}
+			
+		.mobilenavlink {
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			text-align: center;
+			background-color: #81a7e6;
+			border: 1px solid black;
+			margin-bottom: 1vh;
+			height: 20%;
+			cursor: pointer;
+		}
+			
+		#login_register {
+			height: 3vh;
+		}
+			
+		.flex-class1 {
+			flex-direction: column;
+			justify-content: space-evenly;
+		}
+			
+		.socialmedia_icon {
+			width: 30%;
+		}
+			
+		#header_icon {
+			position: relative;
+			width: 100%;
+			height: 100%;
+		}
+			
+		.contactclass {
+			font-size: 3vw;
+		}
+			
+		.mainclosed {
+			height: 75vh;
+		}
+			
+		.mainopen {
+			height: 62vh;
+		}
+			
+		.maintextnormal {
+			font-size: 4vw;
+		}
+		
+		#google_map1 {
+			width: 90%;
+			left: 5%;
+		}	
+		
+		.videoContent {
+			width: 55%;
+			left: 22.5%;
+		}
+		
+		#form1 {
+			width: 90%;
+			left: 5%;
+		}
+		
+		.form1_elements {
+			width: 70%;
+			left: 15%;
+		}
+		
+		.nav-bar{
+			display: none;
+		}
+		
+		#contact_email {
+		   display: none;
+		}
+		
+		#contact_number{
+			display: none;
+		}
+		
+		#mobilecontact_email {
+			position: relative;
+			color: #81a7e6;
+			right: 4%;
+			top: 2%;
+			font-size: 105%;
+			font-family: "Agency FB";
+		}
+		
+		#mobilecontact_number{
+			position: relative;
+			color: #81a7e6;
+			right: 46%;
+			top: 37%;
+			font-size: 100%;
+			font-family: "Agency FB";
+		}
+		
+		#register{
+			display: none;
+		}
+		
+		#login{
+			display: none;
+		}
+		
+		#mobilecontact_email {
+			display: none;
+		}
+		
+		#mobilecontact_number {
+			display: none;
+		}
+
+		#tabletcontact_email {
+			position: absolute;
+			color: #81a7e6;
+			top: 2%;
+			font-size: 206%;
+			font-family: "Agency FB";
+			width: 95%;
+			left: 1%;
+		}
+		
+		#tabletcontact_number {
+			position: absolute;
+			color: #81a7e6;
+			top: 37%;
+			font-size: 200%;
+			font-family: "Agency FB";
+			width: 53%;
+			left: 1%;
+		}
+
 		}
 
 
@@ -560,7 +765,6 @@ overflow: none;
     left: 59%;
     z-index: 9;
     bottom: 32%;
-    background-color: black;
 }
 	
 #hamburgermenu {
@@ -704,6 +908,24 @@ overflow: none;
 
 #login{
 	display: none;
+}
+
+#mobilecontact_email {
+    position: absolute;
+    color: #81a7e6;
+    top: 2%;
+    font-size: 105%;
+    font-family: "Agency FB";
+    width: 95%;
+}
+
+#mobilecontact_number {
+    position: absolute;
+    color: #81a7e6;
+    top: 37%;
+    font-size: 100%;
+    font-family: "Agency FB";
+    width: 53%;
 }
 
 }
