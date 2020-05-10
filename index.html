@@ -1,0 +1,388 @@
+<!doctype html>
+<html>
+    
+<head>
+    
+  <meta charset="utf-8">
+
+	<meta name="keywords" content="">
+	
+	<meta name="description" content="">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<title>Joe's Website</title>
+	
+    <!--Link code retrieved from https://www.w3schools.com/css/css_howto.asp-->
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  
+  <link rel="stylesheet" type="text/css" href="css/cookielaw.css">
+
+  <link rel="stylesheet" type="text/css" href="css/picture_gallery.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+</head>
+
+<body>
+<!--cookiebar script-->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $.cookieBar();
+    });
+  </script>
+
+  <div id="mask"></div>
+
+  <div id="loginform-container">
+
+    <form id="login_form1">
+
+      <label class="loginform_elements">Username:</label>
+
+        <input id="username2" class="loginform_elements" type="text" value="" required>
+
+      <label class="loginform_elements">Email:</label>
+
+        <input id="email2" class="loginform_elements" type="email" value="" required>	 
+
+      <label class="loginform_elements">Password:</label>
+
+        <input id="password2" class="loginform_elements" type="password" value="" required>
+
+        <input id="login_button" class="loginform_elements" type="submit" value="Login" onClick="check()"/>
+
+     </form>
+
+</div>
+
+
+<div id="regform-container">
+
+  <form id="reg_form1">
+
+      <label class="regform_elements">Username:</label>
+
+      <input id="username1" class="regform_elements" type="text" value="" required>
+
+      <label class="regform_elements">Email:</label>
+    
+      <input id="email1" class="regform_elements" type="email" value="" required>
+
+      <label class="regform_elements">Password:</label>
+
+      <input id="password1" class="regform_elements" type="password" value="" required>
+
+      <label class="regform_elements">Confirm Password:</label>
+
+      <input id="confirm_password" class="regform_elements" type="password" required>
+
+      <span id='message'></span>
+
+      <input id="submit_button" class="regform_elements" type="submit" value="Register" onClick="store()"/>
+
+   </form>
+
+</div>
+  
+  <div id="nav">
+	
+    <div id="flex-container2" id="myLinks"> 
+
+      <a id="flex-item_1" title="Home Page"><img id="logo" src="images/Untitled-2.jpg" alt="Joe's Logo" title="Joe's Logo"></a>
+      
+      <div id="flex-item_2" class="nav-bar">Maps</div>
+      
+      <div id="flex-item_3" class="nav-bar">Videos</div>
+      
+      <div id="flex-item_4" class="nav-bar">Enquiries</div>
+      
+      <div id="flex-item_5" class="nav-bar">Work</div>
+    
+    </div>
+
+    <div id="hamburgermenu">☰</div>
+
+<div id="mobilenav" class="mobilenav" style="display: none;">
+
+
+		<div id="mobiledropdown">
+  
+          <div id="mobilefindus" class="mobilenavlink">Find Us</div>
+
+          <div id="mobilevideogallery" class="mobilenavlink">Video Gallery</div>
+
+          <div id="mobilecontactus" class="mobilenavlink">Contact Us</div>
+
+          <div id="mobilepicturegallery" class="mobilenavlink">Picture Gallery</div>
+    
+      </div>
+
+  </div>
+
+    <div id="navborder"></div>
+
+  </div>
+	
+  <div id="header">
+	
+    <div id="flex-container1"> 
+
+      <div>
+      
+        <div id="register" class="nav-bar2">Register</div>
+
+        <div id="login" class="nav-bar2">Login</div>
+    
+    </div>
+		
+    </div>
+	</div>
+    
+  <div id="main1">
+    
+    <div class="row">
+
+      <div class="column">
+
+          <img src="images/space.jpg" style="width:100%" alt="Space Image" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+
+      </div>
+
+      <div class="column">
+
+          <img src="images/sunflower.jpg" style="width:100%" alt="Sunflower Image" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+
+      </div>
+
+      <div class="column">
+
+          <img src="images/puffin.jpg" style="width:100%" alt="Puffin Image" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+
+      </div>
+
+      <div class="column">
+
+          <img src="images/bridge.jpg" style="width:100%" alt="Bridge Image" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+
+      </div>
+
+  </div>
+
+  <div id="Modal" class="modal">
+
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+  
+      <div class="modal-content">
+
+          <div class="Slides">
+
+              <div class="numbertext">1 / 4</div>
+
+              <img src="images/space.jpg" alt="Space Image" style="width:100%">
+      
+          </div>
+
+          <div class="Slides">
+
+              <div class="numbertext">2 / 4</div>
+
+              <img src="images/sunflower.jpg" alt="Sunflower Image" style="width:100%">
+
+          </div>
+
+          <div class="Slides">
+
+              <div class="numbertext">3 / 4</div>
+
+              <img src="images/puffin.jpg" alt="Puffin Image" style="width:100%">
+
+          </div>
+
+          <div class="Slides">
+
+              <div class="numbertext">4 / 4</div>
+
+              <img src="images/bridge.jpg" alt="Bridge Image" style="width:100%">
+
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <div class="caption-container">
+
+              <p id="caption"></p>
+
+          </div>
+
+
+          <div class="column">
+
+              <img class="demo cursor" src="images/space.jpg" style="width:100%" onclick="currentSlide(1)" alt="Space">
+
+          </div>
+
+          <div class="column">
+
+              <img class="demo cursor" src="images/sunflower.jpg" style="width:100%" onclick="currentSlide(2)" alt="Sunflower">
+
+          </div>
+
+          <div class="column">
+
+              <img class="demo cursor" src="images/puffin.jpg" style="width:100%" onclick="currentSlide(3)" alt="Puffin">
+
+          </div>
+
+          <div class="column">
+
+              <img class="demo cursor" src="images/bridge.jpg" style="width:100%" onclick="currentSlide(4)" alt="Bridge">
+
+          </div>
+
+      </div>
+
+  </div>
+  </div>
+    
+    
+    <div id="main2">
+	
+      <iframe id="google_map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2521.941648495794!2d-1.095780984046966!3d50.79518997034523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48745d9d91af2bd7%3A0x5d246ab7de37d188!2sUniversity%20of%20Portsmouth!5e0!3m2!1sen!2suk!4v1575458173193!5m2!1sen!2suk"></iframe>
+      
+	</div>
+    
+    
+    <div id="main3">
+		
+        <video id="video1" controls>
+		 
+            <source src="video/mov_bbb.mp4" type="video/mp4">
+
+            Your browser does not support the video tag.
+		 
+        </video>	
+		
+		<iframe id="youtube1" src="https://www.youtube.com/embed/-kMrXH84ZcI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	</div>
+    
+    
+  <div id="main4"> 
+		
+    
+    <input id="name" class="form1_elements" type="text" placeholder="Name" required="">
+    
+    <input id="email" class="form1_elements" type="email" placeholder="Email" required="">
+    
+    <textarea id="message" class="form1_elements" placeholder="Message" required=""></textarea>
+    
+    <input id="submit_form1" class="form1_elements" type="submit" value="Send Message">
+        
+   </div>
+
+    
+  <div id="main5">
+
+        <div id="slideshow_container">
+
+          <!--Slideshow container--> 
+<div class="slideshow-container">
+
+         <!--Full-width images with number and caption text--> 
+        <div class="Slides1 fade" style="display: none;">
+
+            <div class="numbertext">1 / 3</div>
+
+            <img src="images/black hole.jpg" style="width:100%" alt="Blackhole Wide Image">
+
+            <div class="text">Blackhole Wide</div>
+
+        </div>
+
+        <div class="Slides1 fade" style="display: none;">
+
+            <div class="numbertext">2 / 3</div>
+
+            <img src="images/moon.jfif" style="width:100%" alt="Moon Wide Image">
+
+            <div class="text">Moon Wide</div>
+
+        </div>
+
+        <div class="Slides1 fade" style="display: block;">
+
+            <div class="numbertext">3 / 3</div>
+
+            <img src="images/mountain.jpg" style="width:100%" alt="Mountain Wide Image">
+
+            <div class="text">Mountain Wide</div>
+
+        </div>
+
+        </div>
+
+
+
+         <!--The dots/circles -->
+        <div style="text-align:center">
+
+            <span class="dot" onclick="currentSlide(1)"></span>
+
+            <span class="dot" onclick="currentSlide(2)"></span>
+
+            <span class="dot" onclick="currentSlide(3)"></span>
+
+        </div> 
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+	<div id="footer">
+    
+    <div id="flex-container2"> 
+
+      <a id="facebook" href="https://en-gb.facebook.com/"><img class="imagesize" src="images/facebook.png" alt="Facebook"></a>
+      <a id="insta" href="https://www.instagram.com/"><img class="imagesize" src="images/insta.png" alt="Instagram"></a>
+      <a id="twitter" href="https://twitter.com/login"><img class="imagesize" src="images/twitter.png" alt="Twitter"></a>
+      <a id="linkedin" href="https://uk.linkedin.com/"><img class="imagesize" src="images/linkedin.png" alt="Linkedin"></a>
+  
+  
+    <!-- https://www.wikihow.com/Resize-Text-with-HTML-and-Javascript -->
+			<button id="btn1" alt="Bigger text" title="Bigger text" onclick="changeTSize(5);"> A+ </button>
+      <button id="btn2" alt="Smaller text" title="Smaller text" onclick="changeTSize(-5);"> A- </button>
+
+    </div>
+
+    <div id="footerborder"></div>
+
+  </div>
+
+</body>
+    
+    <script type="text/javascript" src="js/index.js"></script>
+
+    <script type="text/javascript" src="js/slideshow.js"></script>
+
+    <script type="text/javascript" src="js/password.js"></script>
+
+    <script type="text/javascript" src="js/reglogin.js"></script>
+
+    <script type="text/javascript" src="js/equalityact.js"></script>
+
+    <script type="text/javascript" src="js/modalform.js"></script>
+
+    <script type="text/javascript" src="js/modal_picture_gallery.js"></script>
+
+    <script type="text/javascript" src="js/cookielaw.js"></script>
+
+    
+</html>
