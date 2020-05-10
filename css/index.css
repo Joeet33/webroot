@@ -164,6 +164,25 @@ body {
 	height: 68vh;
 	float: left;
 	clear: left;
+	overflow: auto;
+}
+
+#image1 {
+	margin-left: 23%;
+}
+
+#image2 {
+	margin-left: 3%;
+}
+
+#image3 {
+	margin-top: 1%;
+    margin-left: 23%;
+}
+
+#image4 {
+	margin-left: 3%;
+    margin-top: 1%;
 }
 
 /* main2 */
