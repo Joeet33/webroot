@@ -63,26 +63,30 @@ body {
 
 #flex-item_2 {
 	position: absolute;
-	margin-left: 68%;
+    margin-left: 74%;
     cursor: pointer;
+    font-family: "Agency FB";
 }
 
 #flex-item_3 {
 	position: absolute;
-	margin-left: 76%;
-	cursor: pointer;
+    margin-left: 80%;
+    cursor: pointer;
+    font-family: "Agency FB";
 }
 
 #flex-item_4 {
 	position: absolute;
-	margin-left: 84%;
-	cursor: pointer;
+    margin-left: 87%;
+    cursor: pointer;
+    font-family: "Agency FB";
 }
 
 #flex-item_5 {
 	position: absolute;
-	margin-left: 92%;
-	cursor: pointer;
+    margin-left: 93%;
+    cursor: pointer;
+    font-family: "Agency FB";
 }
 
 .nav-bar:hover {color: #81a7e6;}
@@ -131,15 +135,19 @@ body {
 #contact_email {
     position: relative;
     color: #81a7e6;
-    right: 4%;
-    top: 13%;
+    right: 3%;
+    top: 14%;
+    font-size: 179%;
+    font-family: "Agency FB";
 }
 
 #contact_number{
-    position: relative;
+	position: relative;
     color: #81a7e6;
-    right: 12.6%;
-    top: 41%;
+    right: 14.1%;
+    top: 52%;
+    font-size: 166%;
+    font-family: "Agency FB";
 }
 
 .nav-bar2:hover {opacity: 0.9;}
@@ -361,9 +369,10 @@ body {
 
 #login {
 	bottom: 26%;
-    left: 85vw;
+    left: 88vw;
     cursor: pointer;
     z-index: 6;
+    font-family: "Agency FB";
 }
 
 
@@ -406,9 +415,10 @@ body {
 
 #register {
 	top: 13%;
-    left: 93vw;
+    left: 94vw;
     cursor: pointer;
     z-index: 6;
+    font-family: "Agency FB";
 }
 
 #regform-container {
