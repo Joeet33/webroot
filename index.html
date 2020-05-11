@@ -150,113 +150,59 @@
 	</div>
     
   <div id="main1">
-    
-    <div class="row">
 
-      <div id="image1" class="column">
+    <div id="slideshow_container">
 
-          <img src="images/scenic.jpg" style="width:100%" alt="Space Image" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+      <!--Slideshow container--> 
+<div class="slideshow-container">
 
-      </div>
+     <!--Full-width images with number and caption text--> 
+    <div class="Slides1 fade" style="display: none;">
 
-      <div id="image2" class="column">
+        <div class="numbertext">1 / 3</div>
 
-          <img src="images/sunflower.jpg" style="width:100%" alt="Sunflower Image" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        <img src="images/islands.jpg" style="width:100%" alt="Islands Image">
 
-      </div>
-
-
-      <div id="image3" class="column">
-
-          <img src="images/ocean.jpg" style="width:100%" alt="Puffin Image" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-
-      </div>
-
-      <div id="image4" class="column">
-
-          <img src="images/planet.jpg" style="width:100%" alt="Bridge Image" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-
-      </div>
+        <div class="text">Islands Image</div>
 
     </div>
-    
 
-  <div id="Modal" class="modal">
+    <div class="Slides1 fade" style="display: none;">
 
-      <span class="close cursor" onclick="closeModal()">&times;</span>
-  
-      <div class="modal-content">
+        <div class="numbertext">2 / 3</div>
 
-          <div class="Slides">
+        <img src="images/shipwreck.jpg" style="width:100%" alt="Shipwreck Image">
 
-              <div class="numbertext">1 / 4</div>
+        <div class="text">Shipwreck Image</div>
 
-              <img src="images/scenic.jpg" alt="Space Image" style="width:100%">
-      
-          </div>
+    </div>
 
-          <div class="Slides">
+    <div class="Slides1 fade" style="display: block;">
 
-              <div class="numbertext">2 / 4</div>
+        <div class="numbertext">3 / 3</div>
 
-              <img src="images/sunflower.jpg" alt="Sunflower Image" style="width:100%">
+        <img src="images/purple.jpg" style="width:100%" alt="Purple Image">
 
-          </div>
+        <div class="text">Purple Image</div>
 
-          <div class="Slides">
+    </div>
 
-              <div class="numbertext">3 / 4</div>
-
-              <img src="images/ocean.jpg" alt="Puffin Image" style="width:100%">
-
-          </div>
-
-          <div class="Slides">
-
-              <div class="numbertext">4 / 4</div>
-
-              <img src="images/planet.jpg" alt="Bridge Image" style="width:100%">
-
-          </div>
-
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-          <div class="caption-container">
-
-              <p id="caption"></p>
-
-          </div>
+    </div>
 
 
-          <div class="column">
 
-              <img class="demo cursor" src="images/scenic.jpg" style="width:100%" onclick="currentSlide(1)" alt="Space">
+     <!--The dots/circles -->
+    <div style="text-align:center">
 
-          </div>
+        <span class="dot" onclick="currentSlide(1)"></span>
 
-          <div class="column">
+        <span class="dot" onclick="currentSlide(2)"></span>
 
-              <img class="demo cursor" src="images/sunflower.jpg" style="width:100%" onclick="currentSlide(2)" alt="Sunflower">
+        <span class="dot" onclick="currentSlide(3)"></span>
 
-          </div>
-
-          <div class="column">
-
-              <img class="demo cursor" src="images/ocean.jpg" style="width:100%" onclick="currentSlide(3)" alt="Puffin">
-
-          </div>
-
-          <div class="column">
-
-              <img class="demo cursor" src="images/planet.jpg" style="width:100%" onclick="currentSlide(4)" alt="Bridge">
-
-          </div>
-
-      </div>
-
+    </div> 
   </div>
+
   </div>
     
     
@@ -301,61 +247,114 @@
     
   <div id="main5">
 
-        <div id="slideshow_container">
+      <div class="row">
 
-          <!--Slideshow container--> 
-<div class="slideshow-container">
-
-         <!--Full-width images with number and caption text--> 
-        <div class="Slides1 fade" style="display: none;">
-
-            <div class="numbertext">1 / 3</div>
-
-            <img src="images/islands.jpg" style="width:100%" alt="Islands Image">
-
-            <div class="text">Islands Image</div>
-
+        <div id="image1" class="column">
+  
+            <img src="images/scenic.jpg" style="width:100%" alt="Space Image" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  
         </div>
-
-        <div class="Slides1 fade" style="display: none;">
-
-            <div class="numbertext">2 / 3</div>
-
-            <img src="images/shipwreck.jpg" style="width:100%" alt="Shipwreck Image">
-
-            <div class="text">Shipwreck Image</div>
-
+  
+        <div id="image2" class="column">
+  
+            <img src="images/sunflower.jpg" style="width:100%" alt="Sunflower Image" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  
         </div>
-
-        <div class="Slides1 fade" style="display: block;">
-
-            <div class="numbertext">3 / 3</div>
-
-            <img src="images/purple.jpg" style="width:100%" alt="Purple Image">
-
-            <div class="text">Purple Image</div>
-
+  
+  
+        <div id="image3" class="column">
+  
+            <img src="images/ocean.jpg" style="width:100%" alt="Puffin Image" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  
         </div>
-
+  
+        <div id="image4" class="column">
+  
+            <img src="images/planet.jpg" style="width:100%" alt="Bridge Image" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  
         </div>
-
-
-
-         <!--The dots/circles -->
-        <div style="text-align:center">
-
-            <span class="dot" onclick="currentSlide(1)"></span>
-
-            <span class="dot" onclick="currentSlide(2)"></span>
-
-            <span class="dot" onclick="currentSlide(3)"></span>
-
-        </div> 
+  
       </div>
-
+      
+  
+    <div id="Modal" class="modal">
+  
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+    
+        <div class="modal-content">
+  
+            <div class="Slides">
+  
+                <div class="numbertext">1 / 4</div>
+  
+                <img src="images/scenic.jpg" alt="Space Image" style="width:100%">
+        
+            </div>
+  
+            <div class="Slides">
+  
+                <div class="numbertext">2 / 4</div>
+  
+                <img src="images/sunflower.jpg" alt="Sunflower Image" style="width:100%">
+  
+            </div>
+  
+            <div class="Slides">
+  
+                <div class="numbertext">3 / 4</div>
+  
+                <img src="images/ocean.jpg" alt="Puffin Image" style="width:100%">
+  
+            </div>
+  
+            <div class="Slides">
+  
+                <div class="numbertext">4 / 4</div>
+  
+                <img src="images/planet.jpg" alt="Bridge Image" style="width:100%">
+  
+            </div>
+  
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+            <div class="caption-container">
+  
+                <p id="caption"></p>
+  
+            </div>
+  
+  
+            <div class="column">
+  
+                <img class="demo cursor" src="images/scenic.jpg" style="width:100%" onclick="currentSlide(1)" alt="Space">
+  
+            </div>
+  
+            <div class="column">
+  
+                <img class="demo cursor" src="images/sunflower.jpg" style="width:100%" onclick="currentSlide(2)" alt="Sunflower">
+  
+            </div>
+  
+            <div class="column">
+  
+                <img class="demo cursor" src="images/ocean.jpg" style="width:100%" onclick="currentSlide(3)" alt="Puffin">
+  
+            </div>
+  
+            <div class="column">
+  
+                <img class="demo cursor" src="images/planet.jpg" style="width:100%" onclick="currentSlide(4)" alt="Bridge">
+  
+            </div>
+  
+        </div>
+  
     </div>
 
-
+    </div>
 
   </div>
 
