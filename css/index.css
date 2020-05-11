@@ -516,27 +516,39 @@ body {
 }
 
 #smallfont {
-	width: 10%;
-	font-size: .7vw;
-	line-height: 2.5vh;
-	cursor: pointer;
-	color: white;
+	width: fit-content;
+    font-size: 1vw;
+    line-height: 2.5vh;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    height: 30%;
+    margin-top: 4%;
+    margin-left: 10%;
 }
 
 #normalfont {
-	width: 10%;
-	font-size: 1vw;
-	line-height: 1.8vh;
-	cursor: pointer;
-	color: white;
+	width: fit-content;
+    font-size: 2vw;
+    line-height: 1.8vh;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    height: 40%;
+    margin-top: 3%;
+    margin-left: 8%;
 }
 
 #biggerfont {
-	width: 10%;
-	font-size: 1.5vw;
-	line-height: 1vh;
-	cursor: pointer;
-	color: white;
+	width: fit-content;
+    font-size: 3vw;
+    line-height: 1vh;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    height: 38%;
+    margin-top: 2%;
+    margin-left: 2%;
 }
 
 .maintextsmall {
@@ -732,6 +744,88 @@ body {
 			display: none;
 		}
 	
+		#accesability {
+			display: flex;
+			flex-direction: row;
+			margin-top: 2%;
+			margin-left: 2%;		
+		}
+
+		#smallfont {
+			font-size: 2vw;
+			line-height: 2.5vh;
+			cursor: pointer;
+			color: white;
+			text-align: center;
+			height: fit-content;
+			width: fit-content;
+			margin-left: 10%;
+		}
+		
+		#normalfont {
+			width: fit-content;
+			font-size: 3vw;
+			cursor: pointer;
+			color: white;
+			text-align: center;
+			height: fit-content;
+			margin-left: 10%;
+		}
+		
+		#biggerfont {
+			font-size: 4vw;
+			cursor: pointer;
+			color: white;
+			text-align: center;
+			height: 31%;
+			width: fit-content;
+		}
+		.maintextbig {
+			font-size: 5vw;
+			position: absolute;
+			left: 39%;
+			color: white;
+			width: 38%;
+		}
+
+		#flex-item_1 {
+			width: 20%;
+			height: 100%;
+			cursor: pointer;
+			margin-left: 40%;
+		}
+
+		#facebook{
+			position: absolute;
+			width: 7%;
+			height: 60%;
+			left: 67vw;
+			top: 10%;
+		}
+		
+		#insta{
+			position: absolute;
+			width: 7%;
+			height: 60%;
+			left: 75vw;
+			top: 10%;
+		}
+		
+		#twitter{
+			position: absolute;
+			width: 7%;
+			height: 60%;
+			left: 83vw;
+			top: 10%;
+		}
+		
+		#linkedin{
+			position: absolute;
+			width: 7%;
+			height: 60%;
+			left: 91vw;
+			top: 10%;
+		}
 
 		}
 
@@ -903,6 +997,93 @@ overflow: none;
     font-size: 100%;
     font-family: "Agency FB";
     width: 53%;
+}
+
+#accesability {
+	display: flex;
+	flex-direction: row;
+	margin-top: 2%;
+	margin-left: 2%;		
+}
+
+#smallfont {
+	font-size: 4vw;
+    line-height: 2.5vh;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+	margin-left: 15%;
+	margin-top: 10%;
+}
+
+#normalfont {
+	width: fit-content;
+    font-size: 6vw;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    height: fit-content;
+	margin-left: 15%;
+	margin-top: 10%;
+}
+
+#biggerfont {
+    font-size: 8vw;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    height: 31%;
+    width: fit-content;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.maintextbig {
+	font-size: 5vw;
+	position: absolute;
+	left: 39%;
+	color: white;
+	width: 38%;
+}
+
+#flex-item_1 {
+	width: 20%;
+    height: 100%;
+    cursor: pointer;
+    margin-left: 40%;
+}
+
+#facebook{
+	position: absolute;
+    width: 7%;
+    height: 60%;
+    left: 67vw;
+    top: 10%;
+}
+
+#insta{
+	position: absolute;
+    width: 7%;
+    height: 60%;
+    left: 75vw;
+    top: 10%;
+}
+
+#twitter{
+	position: absolute;
+    width: 7%;
+    height: 60%;
+    left: 83vw;
+    top: 10%;
+}
+
+#linkedin{
+	position: absolute;
+    width: 7%;
+    height: 60%;
+    left: 91vw;
+    top: 10%;
 }
 
 }
