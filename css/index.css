@@ -138,7 +138,7 @@ body {
 	position: absolute;
     color: #81a7e6;
     top: 9%;
-    font-size: 257%;
+    font-size: 215%;
     width: 100%;
     font-family: "Agency FB";
     left: 0.2%;
@@ -148,7 +148,7 @@ body {
 	position: absolute;
     color: #81a7e6;
     top: 52%;
-    font-size: 254%;
+    font-size: 205%;
     font-family: "Agency FB";
     width: 100%;
     left: 0.2%;
@@ -237,6 +237,10 @@ body {
 	float: left;
 	clear: left;
 	overflow: auto;
+}
+
+#main3text {
+	color: white;
 }
 
 /* main4 */
@@ -531,16 +535,34 @@ body {
     height: 100%;
 }
 
-#btn1 {
-	position: absolute;
-	top: 25%;
-	right: 95%;
+#accesability {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
-#btn2 {
-	position: absolute;
-	top: 25%;
-	right: 90%;
+#smallfont {
+	width: 10%;
+	font-size: .7vw;
+	line-height: 2.5vh;
+	cursor: pointer;
+	color: white;
+}
+
+#normalfont {
+	width: 10%;
+	font-size: 1vw;
+	line-height: 1.8vh;
+	cursor: pointer;
+	color: white;
+}
+
+#biggerfont {
+	width: 10%;
+	font-size: 1.5vw;
+	line-height: 1vh;
+	cursor: pointer;
+	color: white;
 }
 
 @media screen and (min-width:415px) and (max-width:1024px){
@@ -690,15 +712,7 @@ body {
 		}
 		
 		#contact_email {
-		   display: none;
-		}
-		
-		#contact_number{
-			display: none;
-		}
-		
-		#mobilecontact_email {
-			position: relative;
+			position: absolute;
 			color: #81a7e6;
 			right: 4%;
 			top: 2%;
@@ -706,8 +720,8 @@ body {
 			font-family: "Agency FB";
 		}
 		
-		#mobilecontact_number{
-			position: relative;
+		#contact_number{
+			position: absolute;
 			color: #81a7e6;
 			right: 46%;
 			top: 37%;
@@ -722,34 +736,7 @@ body {
 		#login{
 			display: none;
 		}
-		
-		#mobilecontact_email {
-			display: none;
-		}
-		
-		#mobilecontact_number {
-			display: none;
-		}
-
-		#tabletcontact_email {
-			position: absolute;
-			color: #81a7e6;
-			top: 2%;
-			font-size: 206%;
-			font-family: "Agency FB";
-			width: 95%;
-			left: 1%;
-		}
-		
-		#tabletcontact_number {
-			position: absolute;
-			color: #81a7e6;
-			top: 37%;
-			font-size: 200%;
-			font-family: "Agency FB";
-			width: 53%;
-			left: 1%;
-		}
+	
 
 		}
 
@@ -897,32 +884,6 @@ overflow: none;
 	display: none;
 }
 
-#contact_email {
-   display: none;
-}
-
-#contact_number{
-	display: none;
-}
-
-#mobilecontact_email {
-	position: relative;
-    color: #81a7e6;
-    right: 4%;
-    top: 2%;
-    font-size: 105%;
-    font-family: "Agency FB";
-}
-
-#mobilecontact_number{
-	position: relative;
-    color: #81a7e6;
-    right: 46%;
-    top: 37%;
-    font-size: 100%;
-    font-family: "Agency FB";
-}
-
 #register{
 	display: none;
 }
@@ -931,7 +892,7 @@ overflow: none;
 	display: none;
 }
 
-#mobilecontact_email {
+#contact_email {
     position: absolute;
     color: #81a7e6;
     top: 2%;
@@ -940,7 +901,7 @@ overflow: none;
     width: 95%;
 }
 
-#mobilecontact_number {
+#contact_number {
     position: absolute;
     color: #81a7e6;
     top: 37%;

@@ -92,6 +92,32 @@ $("#main5").show();
    
 });
 
+
+	
+$("#smallfont").click(function() {
+	$("#main3text").removeClass().addClass("maintextsmall");
+	
+	$(".tooltip").css({"font-size": ".8vw", "right": "16vw"});
+	
+});	
+
+	
+$("#normalfont").click(function() {
+	$("#main3text").removeClass().addClass("maintextnormal");
+
+		$(".tooltip").css({"font-size": "1vw", "right": "15vw"});
+});	
+
+	
+$("#biggerfont").click(function() {
+	
+	$("#main3text").removeClass().addClass("maintextbig");
+	
+    $(".tooltip").css({"font-size": "1.5vw", "right": "14vw"});	
+	
+});
+
+
 //mobile navigation start
 
 //When a click on the hamburger icon happens
