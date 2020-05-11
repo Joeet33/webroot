@@ -291,7 +291,6 @@ body {
 }
 
 #main3text {
-	color: white;
 }
 
 /* main4 */
@@ -509,8 +508,11 @@ body {
 
 #accesability {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
+    flex-direction: row;
+    width: 20%;
+    margin-top: 1%;
+    margin-left: 1%;
+
 }
 
 #smallfont {
@@ -537,11 +539,32 @@ body {
 	color: white;
 }
 
+.maintextsmall {
+	font-size: 2vw;
+	position: absolute;
+    left: 39%;
+	color: white;
+	width: 38%;
+}
+
+.maintextnormal {
+	font-size: 3vw;
+    left: 39%;
+    color: white;
+    position: absolute;
+    width: 38%;
+}
+
+.maintextbig {
+	font-size: 4vw;
+	position: absolute;
+    left: 39%;
+	color: white;
+	width: 38%;
+}
+
 @media screen and (min-width:415px) and (max-width:1024px){
 	
-	.maintextnormal {
-		font-size: 2vw;
-	}
 	
 	body {
 		overflow: none;
