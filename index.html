@@ -35,54 +35,61 @@
 
   <div id="mask"></div>
 
-  <div id="loginform-container">
+  <div id="registerform1_container">
+	
+    <form id="register_form1">
 
-    <form id="login_form1">
+        <label id="regformtitle" class="registerform1_elements">Registration Form</label>
+		
+        <label class="registerform1_elements">Name</label>
 
-      <label class="loginform_elements">Username:</label>
+        <input id="name" class="registerform1_elements" type="text" placeholder="Name" required>
 
-        <input id="username2" class="loginform_elements" type="text" value="" required>
+        <label class="registerform1_elements">Email</label>
 
-      <label class="loginform_elements">Email:</label>
+        <input id="email" class="registerform1_elements" type="email" placeholder="Email" required>
 
-        <input id="email2" class="loginform_elements" type="email" value="" required>	 
+        <label class="registerform1_elements">Password</label>
+    
+        <input id="password" class="registerform1_elements" type="password" placeholder="Password" required>
+		
+       <label class="registerform1_elements">Confirm Password</label>
+	
+        <input id="password_confirm" class="registerform1_elements" type="password" placeholder="Confirm Password" required>
+		
+        <div id="message" class="registerform1_elements"></div>
 
-      <label class="loginform_elements">Password:</label>
+        <input id="submit_form2" class="registerform1_elements" type="submit" value="Register">
 
-        <input id="password2" class="loginform_elements" type="password" value="" required>
+    </form>
 
-        <input id="login_button" class="loginform_elements" type="submit" value="Login" onClick="check()"/>
 
-     </form>
+
+
 
 </div>
+	
+<div id="loginform1_container">
+	
+    <form id="login_form1">
 
+        <label id="loginformtitle" class="loginform1_elements">Login Form</label>
+		
+        <label class="loginform1_elements">Name</label>
 
-<div id="regform-container">
+        <input id="loginname" class="loginform1_elements" type="text" placeholder="Name" required>
 
-  <form id="reg_form1">
+        <label class="loginform1_elements">Email</label>
 
-      <label class="regform_elements">Username:</label>
+        <input id="loginemail" class="loginform1_elements" type="email" placeholder="Email" required>
 
-      <input id="username1" class="regform_elements" type="text" value="" required>
+        <label class="loginform1_elements">Password</label>
 
-      <label class="regform_elements">Email:</label>
-    
-      <input id="email1" class="regform_elements" type="email" value="" required>
+        <input id="loginpassword" class="loginform1_elements" type="password" placeholder="Password" required>
 
-      <label class="regform_elements">Password:</label>
+        <input id="loginsubmit_form1" class="loginform1_elements" type="submit" value="Login">
 
-      <input id="password1" class="regform_elements" type="password" value="" required>
-
-      <label class="regform_elements">Confirm Password:</label>
-
-      <input id="confirm_password" class="regform_elements" type="password" required>
-
-      <span id='message'></span>
-
-      <input id="submit_button" class="regform_elements" type="submit" value="Register" onClick="store()"/>
-
-   </form>
+    </form>
 
 </div>
   
@@ -234,11 +241,11 @@
   <div id="main4"> 
 		
     
-    <input id="name" class="form1_elements" type="text" placeholder="Name" required="">
+    <input id="name1" class="form1_elements" type="text" placeholder="Name" required="">
     
-    <input id="email" class="form1_elements" type="email" placeholder="Email" required="">
+    <input id="email1" class="form1_elements" type="email" placeholder="Email" required="">
     
-    <textarea id="message" class="form1_elements" placeholder="Message" required=""></textarea>
+    <textarea id="message1" class="form1_elements" placeholder="Message" required=""></textarea>
     
     <input id="submit_form1" class="form1_elements" type="submit" value="Send Message">
         
@@ -370,7 +377,7 @@
 
       
 
-
+      <div id="loginmessage" class="footerelement">Not Logged In</div>
 
 
       <div id="accesability" class="footerelement">

@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 $("#login").click(function() {
 
-$("#loginform-container").toggle();
+$("#loginform1_container").toggle();
 
 $("#mask").toggle();
 
@@ -11,7 +11,7 @@ $("#mask").toggle();
 
 $("#register").on("click", function() {
 
-$("#regform-container").toggle();
+$("#registerform1_container").toggle();
 
 $("#mask").toggle();
 
@@ -20,9 +20,9 @@ $("#mask").toggle();
 
 $("#mask").on("click", function() {
 
-  $("#regform-container").hide();
+  $("#registerform1_container").hide();
 
-  $("#loginform-container").hide();
+  $("#loginform1_container").hide();
   
   $("#mask").hide();
   
@@ -30,7 +30,7 @@ $("#mask").on("click", function() {
 
   $("#mobilelogin").click(function() {
 
-    $("#loginform-container").toggle();
+    $("#loginform1_container").toggle();
     
     $("#mask").toggle();
     
@@ -39,7 +39,7 @@ $("#mask").on("click", function() {
     
     $("#mobileregister").on("click", function() {
     
-    $("#regform-container").toggle();
+    $("#registerform1_container").toggle();
     
     $("#mask").toggle();
     
